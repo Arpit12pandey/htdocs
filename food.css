@@ -1,0 +1,245 @@
+.nav {
+   background-color: rgb(104, 201, 87);
+   display: flex;
+   align-items: center;
+   position: relative;
+   cursor: pointer;
+}
+
+#logo {
+   width: 10px;
+}
+
+#logo img {
+   display: flex;
+   width: 43px;
+   height: 43px;
+   padding: 20px;
+   border: 20px;
+
+}
+
+.nav>ul {
+   display: flex;
+}
+
+.nav ul li {
+   list-style-type: none;
+   text-decoration: none;
+   border: 0px;
+   padding: 10px;
+}
+
+.nav ul li a {
+   display: flex;
+   text-decoration: none;
+   color: aliceblue;
+   padding: 10px;
+}
+
+.nav ul li a:hover {
+   color: black;
+   background-color: white;
+   border-radius: 15px;
+}
+
+h1,
+p {
+   font-size: 1.2rem;
+
+}
+
+h1 {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+#home {
+   color: aliceblue;
+
+   display: flex;
+   flex-direction: column;
+   height: 400px;
+   background-image: url(https://thumbs.dreamstime.com/b/asian-food-background-various-ingredients-rustic-stone-top-view-vietnam-thai-cuisine-148762904.jpg);
+   background-size: cover;
+   z-index: -1;
+   text-align: center;
+   justify-content: center;
+
+}
+
+.btn {
+   color: white;
+   background-color: rgb(38, 0, 255);
+   font-size: 1.5rem;
+   cursor: pointer;
+}
+
+#services {
+   height: 300px;
+   width: 300px;
+   border: solid 10px;
+   border-color: rgb(247, 5, 5);
+   border-radius: 70px;
+   text-align: center;
+   justify-content: center;
+   padding-top: 25px;
+   background-color: lightgray;
+   margin: 60px;
+}
+
+#services img {
+   height: 3.75cm;
+   width: 3.75cm;
+
+}
+
+#delivery {
+   height: 300px;
+   width: 300px;
+   border: solid 10px;
+   border-color: rgb(247, 5, 5);
+   border-radius: 70px;
+   text-align: center;
+   justify-content: center;
+   padding-top: 25px;
+   background-color: lightgray;
+   margin: 60px;
+}
+
+#delivery img {
+   height: 3.75cm;
+   width: 3.75cm;
+
+}
+
+.play {
+   display: flex;
+
+   flex-wrap: nowrap;
+
+}
+
+#offers {
+   height: 300px;
+   width: 300px;
+   border: solid 10px;
+   border-color: rgb(247, 5, 5);
+   ;
+   border-radius: 70px;
+   text-align: center;
+   justify-content: center;
+   padding-top: 25px;
+   background-color: lightgray;
+   margin: 60px;
+}
+
+#offers img {
+   height: 3.75cm;
+   width: 3.75cm;
+}
+
+#form {
+   text-align: center;
+   border-radius: 20px;
+   height: 8.7cm;
+   width: 9cm;
+   justify-content: center;
+   background-image: url(https://www.sidechef.com/recipe/48bc47bb-38ec-47e2-9e78-7bbed7552986.jpeg?d=1408x1120);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: aliceblue;
+   background-repeat: no-repeat;
+   margin-left: 16.7cm;
+}
+
+.play {
+   background-image: url(https://static.vecteezy.com/system/resources/previews/003/662/775/original/set-of-icons-on-the-theme-of-food-food-doodle-with-food-icons-on-white-background-free-vector.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#form {
+   display: flex;
+}
+
+@media(max-width:1120px) {
+   .nav {
+      flex-direction: column;
+      font-size: 1rem;
+      height: 4.2cm;
+      padding: 0ch;
+   }
+
+   #home {
+      height: 380px;
+   }
+
+   .play {
+      flex-direction: column;
+   }
+
+   #services {
+      margin-left: 5.2cm;
+   }
+
+   #delivery {
+      margin-left: 5.2cm;
+   }
+
+   #offers {
+      margin-left: 5.2cm;
+   }
+}
+
+@media(max-width:1120px) {
+   #form {
+      margin-left: 5.2cm;
+      height: 7.85cm;
+   }
+}
+
+@media(max-width:600px) {
+   #services {
+      margin-left: 1cm;
+   }
+
+   #delivery {
+      margin-left: 1cm;
+   }
+
+   #offers {
+      margin-left: 1cm;
+   }
+
+   #form {
+      margin-left: 1cm;
+   }
+
+   #font {
+      font-size: 35px;
+   }
+}
+
+@media(max-width:400px) {
+   #services {
+      margin-left: 0cm;
+   }
+
+   #delivery {
+      margin-left: 0cm;
+   }
+
+   #offers {
+      margin-left: 0cm;
+   }
+
+   #form {
+      margin-left: 0cm;
+   }
+
+   #font {
+      font-size: 35px;
+   }
+}
