@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>food'O'mania</title>
+  <link rel="stylesheet" href="food.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+
+<body>
+  <nav class="nav">
+    <div id="logo">
+      <img src="https://logos-world.net/wp-content/uploads/2021/10/Pizza-Hut-Logo.png" alt=logo />
+    </div>
+    <ul>
+      <li class="item"><a href="#home">home</a></li>
+      <li class="item"><a href="#services">about</a></li>
+      <li class="item"><a href="#services">services</a></li>
+      <li class="item"><a href="#form">contact us</a></li>
+    </ul>
+  </nav>
+  <div id="home">
+    <article>
+      <h1>WELCOME TO MY ONLINE SHOPPE!</h1>
+      <P>There’s nothing cookie-cutter about Pizza Hut. Not our pizzas. Not our people. And definitely not the way we
+        live life.
+        Around here, we don’t settle for anything less than food we’re proud to serve. And we don’t just clock in.
+        Not when we can also become our best, make friends, and have fun while we’re at it.
+        We’re the pizza company that lives life unboxed.
+      </P>
+      <button type="button" class="btn">order now</button>
+    </article>
+  </div>
+  <div id="font">
+    <h1 style="text-align: center;font-size: 3rem;color: darkgreen;">OUR SERVICES</h1>
+  </div>
+  <div class="play">
+    <div id="services">
+
+      <img src="https://media.istockphoto.com/photos/hand-held-bbq-favorites-picture-id694189032?s=170667a"
+        alt="food" />
+      <p>
+      <h1>delicious food</h1>
+      we have the tastiest you would have ever had,with proper consistency to satisfy your cravings and fulfill your
+      stomach
+      </p>
+    </div>
+    <div id="delivery">
+
+      <img src="https://thumbs.dreamstime.com/b/print-food-logo-food-delivery-logo-vector-180672592.jpg" alt="food" />
+      <p>
+      <h1>home delivery</h1>
+      tastiest food at your doorstep in a minimum amount of time
+      </p>
+    </div>
+    <div id="offers">
+
+      <img
+        src="https://e7.pngegg.com/pngimages/79/190/png-clipart-white-and-red-special-offer-illustration-special-offer-s-love-web-design.png"
+        alt="logo" />
+      <p>
+      <h1>SPECIAL OFFERS</h1>
+      <P> also get special offers and discounts on your orders.to get more info. visit us</P>
+
+      </p>
+    </div>
+  </div>
+  <footer>
+    <div id="form">
+      <span>
+        <h1 style="text-align:center;color: aliceblue;font-size: 3rem;font-weight: bold;">contact us</h1>
+      </span>
+      <form action="submit.php" method="post">
+        <p>enter your name</p>
+        <input type="text" placeholder="NAME" name="NAME">
+        <p>enter your phone number</p>
+        <input type="number" placeholder="pHONE NUMBER" name="pHONE">
+        <p>your love?</p>
+        <select name="cuisines">
+          <option name="cuisines" value="chinese">chinese</option>
+          <option name="cuisines" value="korean">korean</option>
+          <option name="cuisines" value="continential">continential</option>
+          <option name="cuisines" value="indian">indian</option>
+          <option name="cuisines" value="italian">italian</option>
+          <option name="cuisines" value="mexican">mexican</option>
+        </select>
+
+        <br> <br>
+        <button type="input" class="btn btn-primary btn-lg" onclick="greet()">submit</button>
+        <script type="text/javascript">
+          function greet() {
+            alert("we will surely revert you back")
+          }
+        </script>
+
+
+
+
+      </form>
+
+    </div>
+  </footer>
+</body>
+
+</html>

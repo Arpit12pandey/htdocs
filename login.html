@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login and signup</title>
+    <link rel="C:\Users\arpit\web D\bootstrap.min.css">
+    <style>
+        .body {
+            background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/rm422-076-x.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e877fedea1136b8c616786d383ed70c3");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        #block {
+            height: 10cm;
+            width: fit-content;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            background-color: rgb(227, 148, 238);
+            margin-left: 3cm;
+        }
+
+        .register {
+
+            background-image: url("https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg");
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            padding: 3.7px;
+            border: solid 8px;
+            border-color: blue;
+            width: 15cm;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        .log {
+            border: solid 8px;
+            color: aliceblue;
+            background-image: url("https://i.pinimg.com/550x/4a/6f/59/4a6f59296f90c11d77744720ca10d1af.jpg");
+            border-color: rgb(34, 130, 48);
+            width: 15cm;
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+            padding: 3.7px;
+        }
+
+        @media (max-width:1344px) {
+            #block {
+                margin-left: 106px;
+
+            }
+
+            .log {
+                width: 6cm;
+            }
+
+            .register {
+                width: 6cm;
+            }
+
+        }
+    </style>
+</head>
+
+<body class="body">
+    <h1 style="font-size:3.2rem;text-align: center;color: chartreuse;">please fill</h1>
+    <div id="block">
+        <div class="register">
+            <div class="head">
+                <h1 style="text-align:center;">register</h1>
+            </div>
+            <form action="refresh.php" method="post">
+                <p>full name</p>
+                <input type="text" placeholder="fullname" name="full" required>
+                <p>username</p>
+                <input type="text" placeholder="username" name="id" required>
+                <p>password</p>
+                <input type="password" placeholder="password" name="qwerty" required>
+                <br><br>
+                <button type="input" class="btn btn-primary">submit</button>
+
+            </form>
+        </div>
+        <div class="log">
+            <div>
+                <h1> login please</h1>
+            </div>
+            <form action="registration.php" method="post">
+                <p>username</p>
+                <input type="text" placeholder="username" name="ide" required>
+                <p>password</p>
+                <input type="password" placeholder="password" name="pass" required>
+                <br><br>
+                <button type="input" class="btn btn-primary">submit</button>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
